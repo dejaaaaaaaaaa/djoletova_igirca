@@ -131,7 +131,7 @@
         $('.square').each(function (index){
             let img = shuffledArray[index];
             shuffledArray.splice(0, 0);
-            var imageUrl = "img/"+img;
+            var imageUrl = img;
             $(this).css("background-image", "url(" + imageUrl + ")");
             $(this).attr("data-img", imageUrl);
         })
